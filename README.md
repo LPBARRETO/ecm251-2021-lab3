@@ -5,6 +5,6 @@ Este repositório é para trabalhos e projetos da disciplina ECM 251
 ## Lucas Pedreira Barreto
 
 # Linguagens e Frameworks:
--Java
--Python
--C
+- Java
+- Python
+- C
