@@ -8,3 +8,5 @@ Este repositório é para trabalhos e projetos da disciplina ECM 251
 - Java
 - Python
 - C
+- Dart
+- Flutter
