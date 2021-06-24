@@ -31,6 +31,7 @@ public class Sistema {
                 break;
             case 1:
                 System.out.printf("Saldo: R$" + this.conta.getSaldo());
+                break;
             case 2:
                 System.out.println("Informe valor:");
                 double valorParaDepositar = scanner.nextDouble();
@@ -44,7 +45,7 @@ public class Sistema {
                     System.out.println("Operação realizada com sucesso!");
                 } else{
                     System.out.println("Operação falhou! Verificar Saldo!");
-                }
+                }break;
             case 5:
                 System.out.println("Nome do título:");
                 String nomeTitulo = scanner.next();
