@@ -29,9 +29,26 @@ public class Sistema {
                 System.out.println("Obrigado por ter utilizado nosso sistema!");
                 this.continuarExecucao = false;
                 break;
+            case 1:
+                System.out.printf("Saldo: R$" + this.conta.getSaldo());
+            case 2:
+                System.out.println("Informe valor:");
+                double valorParaDepositar = scanner.nextDouble();
+                this.conta.depositar(valorParaDepositar);
+                System.out.println("Opeeração realizada com sucesso!");
+                break;
+            case 3:
+                System.out.println("Informe o valor:");
+                double valorParaRetirar = scanner.nextDouble();
+                if(this.conta.sacar((valorParaRetirar)){
+                    System.out.println("Operação realizada com sucesso!");
+            } else{
+                System.out.println("Operação falhou! Verificar Saldo!");
+            }
             default:
                 System.out.println("Funcionalidade ainda não implementada");
                 break;
+
         }
 
     }
