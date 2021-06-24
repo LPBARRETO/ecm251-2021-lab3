@@ -54,7 +54,7 @@ public class Sistema {
                 double valorJurosTitulo = scanner.nextDouble();
                 System.out.println("Informe a data de vencimento (aaaa-mm-dd)");
                 String dataValidade = scanner.next();
-                Titulo titulo = new Titulo(valorTitulo, valorJurosTitulo, dataValidade);
+                Titulo titulo = new Titulo(valorTitulo, valorJurosTitulo,nomeTitulo, dataValidade);
                 if (this.conta.sacar((titulo.getTotalPagamento())) {
                     System.out.println("Operação realizada com sucesso");
                 }else {
