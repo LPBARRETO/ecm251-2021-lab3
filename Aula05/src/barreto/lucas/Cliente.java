@@ -1,11 +1,11 @@
 package barreto.lucas;
 
 public class Cliente {
-    private String   titular;
+    private String titular;
     private String cpf;
 
     public Cliente(String titular){
-        this.titular;
+        this.titular = titular;
     }
 
     @Override

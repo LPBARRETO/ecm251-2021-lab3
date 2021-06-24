@@ -12,7 +12,7 @@ public class Sistema {
     public Sistema() {
         this.continuarExecucao = true;
         this.scanner = new Scanner(System.in);
-        this.conta = new Conta(1236,1000,"Toad")
+        this.conta = new Conta(1236,1000,"Toad");
     }
 
     public void executar(){
@@ -40,7 +40,7 @@ public class Sistema {
             case 3:
                 System.out.println("Informe o valor:");
                 double valorParaRetirar = scanner.nextDouble();
-                if(this.conta.sacar((valorParaRetirar)){
+                if(this.conta.sacar((valorParaRetirar))){
                     System.out.println("Operação realizada com sucesso!");
                 } else{
                     System.out.println("Operação falhou! Verificar Saldo!");
@@ -55,7 +55,7 @@ public class Sistema {
                 System.out.println("Informe a data de vencimento (aaaa-mm-dd)");
                 String dataValidade = scanner.next();
                 Titulo titulo = new Titulo(valorTitulo, valorJurosTitulo,nomeTitulo, dataValidade);
-                if (this.conta.sacar((titulo.getTotalPagamento())) {
+                if (this.conta.sacar((titulo.getTotalPagamento()))) {
                     System.out.println("Operação realizada com sucesso");
                 }else {
                     System.out.println("Falha na operação");
