@@ -30,7 +30,7 @@ public class Sistema {
                 this.continuarExecucao = false;
                 break;
             case 1:
-                System.out.printf("Saldo: R$" + this.conta.getSaldo());
+                System.out.printf("Saldo: R$" + this.conta.getSaldo()) ;
                 break;
             case 2:
                 System.out.println("Informe valor:");
